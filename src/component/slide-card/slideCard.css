@@ -1,0 +1,30 @@
+/* .listCard{
+    
+    display: flex;
+    gap: 10px;
+    width: 100%;
+} */
+.card{
+    width: 100%;
+    /* margin: 0 10px; */
+    position: relative;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+
+}
+.card img{
+    border-radius: 5%;
+    width: 90%;
+    height: 13rem;
+    /* position: relative; */
+}
+.card .text-card{
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 5rem;
+    border-radius: 0 0 10% 10%;
+    position: absolute;
+    top: 8rem;
+    color: white;
+    /* border: red solid 2px; */
+}

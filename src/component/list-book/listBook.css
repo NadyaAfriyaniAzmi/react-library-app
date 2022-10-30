@@ -1,0 +1,14 @@
+.listbook-card img{
+/* width: 80%; */
+}
+.listbook-text{
+ /* width: 80%; */
+}
+
+.listcard{
+   border-radius: 5%;
+   text-align: center;
+   Width :320px;    
+   Height :340px;
+   box-shadow:2px 3px 4px 0px #888888;
+}

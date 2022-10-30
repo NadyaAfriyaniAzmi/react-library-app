@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.img-content img{
+    align-items: center;
+    filter: brightness(50%);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.img-content h1{
+    position: absolute;
+    color: white;
+    padding: 5rem 3rem;
+    font-size: 4rem;
+    width: 30rem;
+    z-index: 1;
+}
+.img-content h3{
+    position: absolute;
+    z-index: 1;
+    color: white;width: 378px;
+    /* height: 30px; */
+    left: 30px;
+    top: 44rem;
+}
+.img-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem 0 0;
+}
+.img-icon img{
+    width: 70px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 14rem 0 0;
+}
+.form-text{
+    color: #424242;
+}
+.form-text h2{
+    font-size: 64px;
+}
+.form-text p{
+    font-size: 17px;
+    width: 44%;
+}
+.form-login{
+    padding: 0.5rem 0 1rem;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    color: #D0CCCC;
+}
+.form input{
+    border: none;
+    outline: none;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    color:  #424242;
+}
+.form-remb{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.form-remb a{
+    text-decoration: none;
+    color: black;
+}
+input[type="checkbox"]{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.button-content{
+    display: flex;
+    gap: 1rem;
+}
+.btn-login{
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.btn-signup{
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.text{
+    padding: 1rem 0 0 0;
+    width: 60%;
+    color: #D0CCCC;
+}
+.text span{
+    color: black;
+}
+.button-content2{
+    padding: 1rem 0 0 0;
+}
+.btn-login2{
+    padding: 3px 15px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.btn-signup2{
+    padding: 3px 15px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.text2{
+    padding: 1px 0 0 0;
+    width: 55%;
+    color: #D0CCCC;
+}
+.text2 span{
+    color: black;
+}
